@@ -1,6 +1,6 @@
 ### transcription.py
 #```python
-import youtube_dl
+import yt_dlp as youtube_dl
 from pydub import AudioSegment
 import os
 from drum_model import TranscriptionModel  # from cloned repo
